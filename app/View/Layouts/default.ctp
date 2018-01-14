@@ -157,13 +157,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 														<div class="main-menu-nav">
 																<ul class="menu-nav">
 																		<li><a href="/">Home</a></li>
-																		<li><a href="about-page.html">About</a>
-																		</li>
-																		<li><a href="service-page.html">Service</a>
-																				<ul class="dropdown-menu-items">
-																						<li><a href="service-details-page.html">service-details</a>
-																						</li>
-																				</ul>
+																		<li><a href="/about">About</a>
 																		</li>
 																		<li><a href="/websites">Mypages</a>
 																		</li>
@@ -189,13 +183,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 													<ul class="mobile-menu-nav">
 															<li><a href="/">Home</a>
 															</li>
-															<li><a href="about-page.html">About</a>
-															</li>
-															<li><a href="service-page.html">Service</a>
-																	<ul class="dropdown-menu-items">
-																			<li><a href="service-details-page.html">service-details</a>
-																			</li>
-																	</ul>
+															<li><a href="/about">About</a>
 															</li>
 															<li><a href="/websites">Mypages</a>
 															</li>

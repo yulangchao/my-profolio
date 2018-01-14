@@ -31,7 +31,7 @@
                 </div>
                 <div class="row mg-b-30">
 					<?php foreach ($websites as $website): ?>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 grid-item">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 grid-item" style="margin-top:20px;">
 							<div class="property-item dh-container res-mg-bt">
 								<img style="width:370px; height:270px;" src="<?php echo $website['BrwImage']['main'] ? $website['BrwImage']['main']['url'] : '/img/property/1.jpg'; ?>" alt="" />
 								<div class="property-details dh-overlay">

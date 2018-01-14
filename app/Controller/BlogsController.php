@@ -7,7 +7,7 @@ class BlogsController extends AppController {
 
     public function index() {
         $paginate = array(
-            'limit' => 9,
+            'limit' => 6,
             'order' => array(
                 'Blog.id' => 'desc'
             )

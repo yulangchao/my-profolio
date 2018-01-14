@@ -7,7 +7,7 @@ class WebsitesController extends AppController {
 
     public function index() {
         $paginate = array(
-            'limit' => 5,
+            'limit' => 6,
             'order' => array(
                 'Website.id' => 'desc'
             )
