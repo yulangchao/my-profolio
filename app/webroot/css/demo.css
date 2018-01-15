@@ -1,4 +1,9 @@
 @import url('reset.css');
+
+.cs-shadow{
+	width:100% !important;
+	display:none;
+}
 .sign-up-area{
     display:none;
 }

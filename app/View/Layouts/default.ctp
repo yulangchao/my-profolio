@@ -22,8 +22,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
-		<?php echo $cakeDescription ?>:
-		<?php echo $this->fetch('title'); ?>
+		<?php echo "Richard's page" ?>
 	</title>
 	<?php
 		echo $this->Html->meta('icon');
@@ -159,6 +158,8 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 																		<li><a href="/">Home</a></li>
 																		<li><a href="/about">About</a>
 																		</li>
+																		<li><a href="/stream">Live</a>
+																		</li>
 																		<li><a href="/websites">Mypages</a>
 																		</li>
 																		<li><a href="/blogs">Blog</a>
@@ -185,6 +186,8 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 															</li>
 															<li><a href="/about">About</a>
 															</li>
+																		<li><a href="/stream">Live</a>
+																		</li>
 															<li><a href="/websites">Mypages</a>
 															</li>
 															<li><a href="/blogs">Blog</a>
